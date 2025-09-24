@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 300px;
+}
+
+.gelas {
+  border: 1px solid #333;
+  width: 100px;
+  height: 200px;
+  position: relative;
+  margin: 0 10px;
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: bottom;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.isi-air {
+  background-color: lightblue;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
